@@ -1,0 +1,41 @@
+/* HEADER */
+header {
+    display: flex;
+    background-color: blue;
+    height: 170px;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 30px;
+    color: #ffffff;
+    padding-left: 20px;
+}
+
+
+/* BANNIERE */
+.banniere {
+    display: flex;
+    justify-content: space-around;
+    background-color: chartreuse;
+    height: 100px;
+    padding-top: 50px;
+}
+
+
+/* SECTION */
+section {
+    display: flex;
+
+}
+
+article {
+    display: flex;
+    background-color: blueviolet;
+    height: 250px;
+}
+
+aside {
+    display: flex;
+    background-color: #edf8f3;
+}
