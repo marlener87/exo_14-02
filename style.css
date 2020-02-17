@@ -1,8 +1,13 @@
+#bloc_page {
+    width: 100%;
+    margin: auto;
+}
+
 /* HEADER */
 header {
     display: flex;
     background-color: blue;
-    height: 170px;
+    height: 120px;
     padding-top: 50px;
 }
 
@@ -26,16 +31,36 @@ h1 {
 /* SECTION */
 section {
     display: flex;
+    flex-direction: row;
+    background-color: deepskyblue;
+}
 
+section .article {
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;  
 }
 
 article {
-    display: flex;
-    background-color: blueviolet;
+    border-bottom: 10px solid cyan;
     height: 250px;
+    width: 800px;
+    color: #ffffff;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
 }
 
-aside {
+section aside {
     display: flex;
-    background-color: #edf8f3;
+    background-color: #7fffd4;
+    width: 1000px;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: deeppink;
+    height: 50px;
+    margin-top: -16px;
 }
